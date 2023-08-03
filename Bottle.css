@@ -1,0 +1,46 @@
+body{
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    width: 100%;
+    font-size: larger;
+    margin-top: 0px;body{
+        background-position: center;
+    }
+    .heading{
+        width: 100%;
+        font-size: larger;
+        margin-top: 0px;
+    }
+    .heading:hover{
+        font-size: large;
+    }
+    .link{
+        background-color: black;
+        border-radius: 10px;
+        width: 80px;
+        float: right;
+    }
+    canvas{
+        border-radius: 10px;
+        box-shadow: 7px 7px 7px grey;
+    }
+    img{
+        size: 200px;
+        object-fit: center;
+    }
+}
+.heading:hover{
+    font-size: large;
+}
+.link{
+    background-color: black;
+    border-radius: 10px;
+    width: 80px;
+    float: right;
+}
+canvas{
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px grey;
+}

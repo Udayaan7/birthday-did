@@ -1,0 +1,123 @@
+<html>
+
+<head>
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="AC.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <ul class="menu">
+        <li class="link"><a href="#welcome">Birthday</a></li>
+        <li class="link"><a href="#bio">Us together</a></li>
+        <li class="link"><a href="#Whishes">Whishes</a></li>
+        <li class="link"><a href="#Charts">Didi</a></li>
+    </ul>
+    <section id="welcome">
+
+        <img src="dada2.jpg" id="picture">
+        <br>
+        <img src="48.jpg" id="picture">
+        <br>
+        <h1>जन्मदिवसस्य हार्दिक्य: शुभकामना:</h1>
+        <div class="line"></div>
+        <p class="para">
+        </p>
+    </section>
+
+    <br>
+    <br>
+
+    <div style="text-align:center"> 
+        <button onclick="playPause()">Play/Pause</button> 
+        <button onclick="makeBig()">Big</button>
+        <button onclick="makeSmall()">Small</button>
+        <button onclick="makeNormal()">Normal</button>
+        <br><br>
+        <video id="video1" width="420">
+          <source src="Video.mp4" type="video/mp4">
+        
+        </video>
+      </div> 
+      
+      <script> 
+      var myVideo = document.getElementById("video1"); 
+      
+      function playPause() { 
+        if (myVideo.paused) 
+          myVideo.play(); 
+        else 
+          myVideo.pause(); 
+      } 
+      
+      function makeBig() { 
+          myVideo.width = 560; 
+      } 
+      
+      function makeSmall() { 
+          myVideo.width = 320; 
+      } 
+      
+      function makeNormal() { 
+          myVideo.width = 420; 
+      } 
+      </script> 
+
+      
+
+
+
+    <br>
+    <br>
+    
+    
+       
+    <section id="bio">
+        <h1>US together
+        </h1>
+        <div class="line"></div>
+        <p class="para">
+        </p>
+        <a href=https://www.youtube.com/watch?v=O2aQhWwxuyY , target="_blank">
+            <img id="picture" src="dada1.jpg">
+        </a>            
+        
+    </section>
+
+    <br>
+    <br>
+    
+    
+       
+    <section id="Whishes">
+        <h1>Whishes</h1>
+        <div class="line"></div>
+        <p class="para">I wish ypur ear gets okay by a day or so and that you will get to eat chessy pizza .  
+        </p>
+        <a href= "https://www.youtube.com/watch?v=mZA8YJQ_Ehc" target="_blank">
+        <img id="picture" src="wish.jpg">
+        </a>
+        </div>
+        </section>
+
+
+<br>
+<br>
+
+
+    <div>
+        <section id="Charts">
+            <h1>Didi</h1>
+            <div class="line"></div>
+            <span>
+                <img id="picture" src="dada4.jpg">
+            
+            </span>
+            </div>
+        </section>
+
+</body>
+
+</html>
